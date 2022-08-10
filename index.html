@@ -1,104 +1,233 @@
 <!DOCTYPE html>
-
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Make a web page</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: gray; border: 2px solid black;">
-            <a class="navbar-brand" href="#">FOOD</a>
-            <button class="navbar-toggler" style="border: black 2px solid;" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="nav navbar-nav" id="nav-text">
-                    <a class="nav-item nav-link active" href="#">Chicken<span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#"> <span class="hidden-md-up">Beef</span></a>
-                    <a class="nav-item nav-link" href="#">Sushi</a>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <h1 class="heading-title text-center">Our Menu</h1>
-
-    <div class="box">
-        <div class="container item1">
-            <section>
-                <div id="chicken">
-                    <p>Chicken</p>
-                </div>
-                <p>Chickens are gregarious birds and live together in flocks. They have a communal approach to the
-                    incubation of eggs and raising of young. Individual chickens in a flock will dominate others,
-                    establishing a "pecking order", with dominant individuals having priority for food access and
-                    nesting locations. Removing hens or roosters from a flock causes a temporary disruption to this
-                    social order until a new pecking order is established. Adding hens, especially younger birds, to an
-                    existing flock can lead to fighting and injury.[19] When a rooster finds food, he may call other
-                    chickens to eat first. He does this by clucking in a high pitch as well as picking up and dropping
-                    the food. This behavior may also be observed in mother hens to call their chicks and encourage them
-                    to eat.</p>
-            </section>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="UTF-8">
+      <title>SHUI STEAKHOUSE | Bar &amp; Grille </title>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="styles.css">
+   </head>
+   <body> 
+      <div class="menu">
+      	<div class="menu-display">
+      		<div class="main-menu">
+      			<div class="menu-heading">
+      				<p>MAIN DISHES</p>
+      			</div>
+      			<div class="menu-logo">
+      				<img src="assets/grill.svg">
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">House Smoked Beef Ribs</p>
+	      				<p>$26.99</p>
+	      			</div>
+	      			<div class="item-description">
+	      				<p>Our house smoked ribs are smoked for 12+ hours and rubbed without signature Shui Rub that we make from scratch every day.</p>
+	      			</div>
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Original Steak Tartare</p>
+	      				<p>$21.99</p>
+	      			</div>
+	      			<div class="item-description">
+	      				<p>Served raw, hand-chopped sirloin steak served with classic garnishment and our own seasonings.</p>
+	      			</div>
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Black Truffle Tenderloin Steak Tartare</p>
+	      				<p>$19.99</p>
+	      			</div>
+	      			<div class="item-description">
+	      				<p>Quail eggs, garlic toast and toasted baguettes. </p>
+	      			</div>
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Filet Mingon</p>
+	      				<div class="steak-price">
+		      				<p>26.90LE <span class="small-info">(8oz)</p>
+		      				<p>34.70LE<span class="small-info">(10oz)</p>
+		      				<p>41.10LE <span class="small-info">(12oz)</p>
+		      			</div>
+	      			</div>
+	      			<div class="item-description">
+		      				<p>Grilled center cut filet mignon, served with port wine reduction sauce.</p>
+		      			</div>
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Strip Sirloin</p>
+	      				<div class="steak-price">
+		      				<p>LE36.90 <span class="small-info">(8oz)</p>
+		      				<p>LE44.70 <span class="small-info">(10oz)</p>
+		      				<p>LE51.10 <span class="small-info">(12oz)</p>
+	      				</div>
+	      			</div>
+	      			<div class="item-description">
+		      				<p>Angus strip sirloin steak full of flavor and texture. Broiled over open flame to enhance its flavors.</p>
+		      			</div>
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Porterhouse</p>
+	      				<div class="steak-price">
+		      				<p>LE56.90 <span class="small-info">(17oz)</p>
+		      				<p>LE66.70 <span class="small-info">(21oz)</p>
+		      				<p>LE75.10 <span class="small-info">(25oz)</p>
+	      				</div>
+	      			</div>
+	      			<div class="item-description">
+		      				<p>Angus porterhouse steak full of flavor and texture. Broiled over open flame to enhance its flavors.</p>
+		      		</div>
+      			</div>
+      			<div id="seafood" class="menu-heading">
+      				<p>SEAFOOD</p>
+      			</div>
+      			<div class="menu-logo">
+      				<img src="assets/hook.svg">
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Broiled Caribbean Lobster Tail</p>
+	      				<p>LE4.10 (per oz)</p>
+	      			</div>
+	      			<div class="item-description">
+	      				<p>Seared rare, citrus with seasame, ginger butter.</p>
+	      			</div>
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Alaskan King Crab</p>
+	      				<p>- Market -</p>
+	      			</div>
+	      			<div class="item-description">
+	      				<p>Hot w/ drawn butter, cold w/ mustard &amp; cocktail sauce</p>
+	      			</div>
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Chilean Sea Bass</p>
+	      				<p>LE41.00</p>
+	      			</div>
+	      			<div class="item-description">
+	      				<p>Caught off the coast of Tierra Del Fuego. </p>
+	      			</div>
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Alantic Swordfish</p>
+	      				<p>LE32.59</p>
+	      			</div>
+	      			<div class="item-description">
+	      				<p>Flown in daily. Line caught off the coast of New England. </p>
+	      			</div>
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Black Grouper</p>
+	      				<p>$39.00</p>
+	      			</div>
+	      			<div class="item-description">
+	      				<p>Caught off the coast of Florida in the Gulf. </p>
+	      			</div>
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Pacific Yellowfin Ahi Tuna</p>
+	      				<p>LE36.59</p>
+	      			</div>
+	      			<div class="item-description">
+	      				<p>Sesame-cracked peppercorn crust </p>
+	      			</div>
+      			</div>
+      			<div id="appetizers" class="menu-heading">
+      				<p>APPETIZERS</p>
+      			</div>
+      			<div class="menu-logo">
+      				<img src="assets/appetizer.svg">
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Shusi Grade Ahu Tuna</p>
+	      				<p>LE18.99</p>
+	      			</div>
+	      			<div class="item-description">
+	      				<p>Seared rare, citrus with seasame, ginger and wasabi.</p>
+	      			</div>
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Escargot Bourgogne</p>
+	      				<p>LE14.99</p>
+	      			</div>
+	      			<div class="item-description">
+	      				<p>Served with house made garlic and herb butter, with a side of a toasted house made baguette.</p>
+	      			</div>
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Lobster Bisque</p>
+	      				<p>LE15.20</p>
+	      			</div>
+	      			<div class="item-description">
+	      				<p>Fresh main lobster chunks served in our house made bisque. </p>
+	      			</div>
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Crispy Portabella Mushroom Fondue</p>
+	      				<p>LE16.59</p>
+	      			</div>
+	      			<div class="item-description">
+	      				<p>Applewood smoked bacon, scallions sauteed with our house made wine reduction sauce. Served with a truffle cheese sauce.  </p>
+	      			</div>
+      			</div>
+      			<div id="sides" class="menu-heading">
+      				<p>Sides</p>
+      			</div>
+      			<div class="menu-logo">
+      				<img src="assets/dish.svg">
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Augratin Potatoes</p>
+	      				<p>$10.10</p>
+	      			</div>
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Black Pepper Parmesean Kettle Fries</p>
+	      				<p>LE9.90</p>
+	      			</div>
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Sauteed Mushrooms</p>
+	      				<p>LE7.99</p>
+	      			</div>
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Oak-grilled Vegtables</p>
+	      				<p>LE11.29</p>
+	      			</div>
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Lobster Mac &amp; Cheese</p>
+	      				<p>LE14.39</p>
+	      			</div>
+      			</div>
+      			<div class="menu-item">
+	      			<div class="item-info">
+	      				<p class="item-name">Sea Salt Baked Potato</p>
+	      				<p>LE9.99</p>
+	      			</div>
+      			</div>
+      		</div>
         </div>
-
-        <div class="container item2">
-            <section>
-                <div id="beef">
-                    <p>Beef</p>
-                </div>
-                <p>Chickens are gregarious birds and live together in flocks. They have a communal approach to the
-                    incubation of eggs and raising of young. Individual chickens in a flock will dominate others,
-                    establishing a "pecking order", with dominant individuals having priority for food access and
-                    nesting locations. Removing hens or roosters from a flock causes a temporary disruption to this
-                    social order until a new pecking order is established. Adding hens, especially younger birds, to an
-                    existing flock can lead to fighting and injury.[19] When a rooster finds food, he may call other
-                    chickens to eat first. He does this by clucking in a high pitch as well as picking up and dropping
-                    the food. This behavior may also be observed in mother hens to call their chicks and encourage them
-                    to eat.</p>
-            </section>
-        </div>
-
-        <div class="container item3">
-            <section>
-                <div id="sushi">
-                    <p>Sushi</p>
-                </div>
-                <p>Chickens are gregarious birds and live together in flocks. They have a communal approach to the
-                    incubation of eggs and raising of young. Individual chickens in a flock will dominate others,
-                    establishing a "pecking order", with dominant individuals having priority for food access and
-                    nesting locations. Removing hens or roosters from a flock causes a temporary disruption to this
-                    social order until a new pecking order is established. Adding hens, especially younger birds, to an
-                    existing flock can lead to fighting and injury.[19] When a rooster finds food, he may call other
-                    chickens to eat first. He does this by clucking in a high pitch as well as picking up and dropping
-                    the food. This behavior may also be observed in mother hens to call their chicks and encourage them
-                    to eat.</p>
-            </section>
-        </div>
-
-    </div>
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-</body>
-
+   </body>
 </html>

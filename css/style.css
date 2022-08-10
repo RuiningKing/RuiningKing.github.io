@@ -1,154 +1,90 @@
-{
-    box-sizing: border-box;
+* {
+     margin: 0;
+     padding: 0;
 }
-
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ body {
+     font-family: "Montserrat", sans-serif;
 }
-
-.heading-title {
-    color: black;
-    /* text-align: center; */
+ a {
+     text-decoration: none;
 }
-
-.container {
-    border: none;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
+ .menu {
+     height: 100vh;
+     background-color: #e8e8e8;
 }
-
-section {
-    border: 1px solid black;
-    background-color: gray;
-    border-radius: 0.5rem;
-    width: 100%;
-    height: 200px;
-    color: black;
-    position: relative;
-    overflow: auto;
+ .main-menu {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     padding: 40px 0;
 }
-
-#chicken {
-    border: 1px solid black;
-    border-radius: 0.5rem;
-    text-align: center;
-    width: 30%;
-    margin-left: 70%;
-    font-weight: bold;
-    font-size: 125%;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 5px;
-    background-color: hsl(1, 42%, 72%);
+ .menu-heading {
+     background-color: #000;
+     opacity: .9;
+     width: 100%;
+     margin: 20px 60px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 10px;
+     font-size: 1.2em;
+     color: #e8e8e8;
+     box-shadow: 1px 1px 1px #595959;
 }
-
-#beef {
-    border: 1px solid black;
-    border-radius: 0.5rem;
-    text-align: center;
-    width: 30%;
-    margin-left: 70%;
-    font-weight: bold;
-    font-size: 125%;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 5px;
-    background-color: #C14643;
+ .menu-logo {
+     display: flex;
+     justify-content: center;
+     width: 100%;
 }
-
-#sushi {
-    border: 1px solid black;
-    border-radius: 0.5rem;
-    text-align: center;
-    width: 30%;
-    margin-left: 70%;
-    font-weight: bold;
-    font-size: 125%;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 5px;
-    background-color: #E5D198;
+ .menu-display {
+     width: 100%;
+     color: #595959;
+     display: flex;
+     overflow-x: auto;
 }
-
-p {
-    padding: 15px;
-    margin: 0;
+ .small-info {
+     font-size: .9em;
 }
-
-/* Desktop view */
-@media(min-width: 992px) {
-    .box {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr;
-        grid-auto-flow: row;
-    }
-
-    .item1 {
-        grid-column: 1;
-        grid-row: 1;
-    }
-
-    .item3 {
-        grid-column: 3;
-        grid-row: 1;
-    }
+ .menu-item {
+     display: flex;
+     flex-direction: column;
+     padding: 20px;
+     width: 40%;
+     margin: 1.33%;
 }
-
-/* Tablet view */
-@media(min-width: 768px) and (max-width: 991px) {
-    .box {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-auto-flow: row;
-    }
-
-    .item1 {
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
-    }
-
-    .item2 {
-        grid-column: 2 / 3;
-        grid-row: 1 / 2;
-    }
-
-    .item3 {
-        grid-column: 1 / 3;
-        grid-row: 2 / 3;
-    }
-
+ .menu-item .item-info {
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 20px;
+     font-size: .8em;
+     border-bottom: 2px solid #a8a8a8;
+     padding-bottom: 6px;
 }
-
-/* Mobile view */
-@media (max-width: 768px) {
-    .box {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 1fr);
-        grid-auto-flow: column;
-    }
-
-    .item1 {
-        grid-column: 1;
-        grid-row: 1 / 2;
-    }
-
-    .item2 {
-        grid-column: 1;
-        grid-row: 2 / 3;
-    }
-
-    .item3 {
-        grid-column: 1;
-        grid-row: 3 / 4;
-    }
+ .menu-item .item-info p:nth-child(2) {
+     font-weight: 500;
+     letter-spacing: .2px;
+     font-size: .8em;
+     font-style: italic;
+     margin-right: 20px;
 }
-
-#nav-text a {
-    text-align: center;
+ .menu-item .item-info .item-name {
+     text-transform: uppercase;
+     font-weight: 700;
+     text-transform: italic;
+     margin-bottom: 4px;
+     letter-spacing: .2px;
+}
+ .menu-item .item-info .item-description {
+     font-size: .9em;
+     color: #595959;
+}
+ .steak-price {
+     display: flex;
+}
+ .steak-price p:nth-child(1), .steak-price p:nth-child(2), .steak-price p:nth-child(3) {
+     font-weight: 500;
+     letter-spacing: .2px;
+     font-size: .8em;
+     font-style: italic;
+     margin-right: 20px;
 }
